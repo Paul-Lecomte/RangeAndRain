@@ -57,7 +57,8 @@ By inputting your target’s range, *Range & Rain* calculates the necessary angl
 | Soviet   | M-30 122mm Howitzer      |
 
 ## 📌 Roadmap
-- [ ] Add elevation adjustment for terrain
+- [x] elevation support for the Axis / Ally faction
+- [x] elevation support for the Soviet faction
 - [ ] Implement a visual trajectory preview
 - [ ] Add an API for in-game integration
 - [ ] Mobile-friendly version
