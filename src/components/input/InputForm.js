@@ -86,6 +86,21 @@ const InputForm = () => {
 
             <form onSubmit={handleSubmit}>
                 <div className="mb-6">
+                    <label htmlFor="distance" className="block text-lg font-medium mb-2">Distance to Target
+                        (meters)</label>
+                    <input
+                        type="number"
+                        id="distance"
+                        value={distance}
+                        onChange={(e) => setDistance(e.target.value)}
+                        className="w-full px-4 py-3 border rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="Enter distance"
+                    />
+                </div>
+
+                {error && <p className="text-red-500 text-sm mb-4">{error}</p>}
+
+                <div className="mb-6">
                     <label htmlFor="faction" className="block text-lg font-medium mb-2">Faction</label>
                     <select
                         id="faction"
@@ -100,20 +115,6 @@ const InputForm = () => {
                     </select>
                 </div>
 
-                <div className="mb-6">
-                    <label htmlFor="distance" className="block text-lg font-medium mb-2">Distance to Target (meters)</label>
-                    <input
-                        type="number"
-                        id="distance"
-                        value={distance}
-                        onChange={(e) => setDistance(e.target.value)}
-                        className="w-full px-4 py-3 border rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        placeholder="Enter distance"
-                    />
-                </div>
-
-                {error && <p className="text-red-500 text-sm mb-4">{error}</p>}
-
                 <button
                     type="submit"
                     className="w-full bg-blue-600 text-white py-3 rounded-lg text-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -124,7 +125,7 @@ const InputForm = () => {
 
             {calculatedMil !== null && (
                 <div className="mt-4 text-xl text-center font-semibold">
-                    <p >Calculated Mil: {Math.floor(calculatedMil)}</p>
+                    <p>Calculated Mil: {Math.floor(calculatedMil)}</p>
                 </div>
             )}
         </div>
