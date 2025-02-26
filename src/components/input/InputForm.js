@@ -1,7 +1,7 @@
 const InputForm = () => {
     return (
         <div>
-
+            inputs
         </div>
     );
 };
