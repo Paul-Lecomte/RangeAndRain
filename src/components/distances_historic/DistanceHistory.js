@@ -41,7 +41,7 @@ const DistanceHistory = () => {
                             <div>
                                 <p><strong>Faction:</strong> {item.faction}</p>
                                 <p><strong>Distance:</strong> {item.distance} meters</p>
-                                <p><strong>Date:</strong> {item.date}</p>
+                                <p><strong>Mil:</strong> {Math.floor(item.mil)}</p>
                             </div>
                             <button onClick={() => handleRemoveSingleItem(item.id)}>
                                 Remove
