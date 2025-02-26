@@ -50,11 +50,11 @@ By inputting your target’s range, *Range & Rain* calculates the necessary angl
 4. Fire and adjust based on impact.
 
 ## 🗺️ Supported Artillery
-| Faction  | Artillery Piece          | Estimated Range per Notch |
-|----------|--------------------------|---------------------------|
-| US       | M114 155mm Howitzer      | ~100m per notch           |
-| Germany  | leFH 18 105mm Howitzer   | ~90m per notch            |
-| Soviet   | M-30 122mm Howitzer      | ~95m per notch            |
+| Faction  | Artillery Piece          |
+|----------|--------------------------|
+| US       | M114 155mm Howitzer      |
+| Germany  | leFH 18 105mm Howitzer   |
+| Soviet   | M-30 122mm Howitzer      |
 
 ## 📌 Roadmap
 - [ ] Add elevation adjustment for terrain
