@@ -9,6 +9,13 @@ const Page = () => {
                     Artillery in *Hell Let Loose* can be a powerful asset, but understanding how it works is key to using it effectively. This guide will explain the basics for beginners.
                 </p>
             </section>
+
+            <section className="mt-8">
+                <h2 className="text-3xl font-semibold mb-4">Advanced Artillery Details</h2>
+                <p className="text-lg mb-4">
+                    Now, let's dive deeper into how artillery works at a tactical level.
+                </p>
+            </section>
         </div>
     );
 };
