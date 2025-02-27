@@ -11,7 +11,7 @@ export default function Home() {
             </div>
 
             {/* Logs positioned at the top-right on large screens, below on smaller screens */}
-            <div className="sm:absolute sm:top-4 sm:right-4 sm:w-80 sm:max-h-[calc(100vh-80px)] sm:block w-full flex justify-center mt-6 sm:mt-0">
+            <div className="sm:absolute sm:top-4 sm:right-4 sm:w-2/6 sm:max-h-[calc(100vh-80px)] sm:block w-full flex justify-center mt-6 sm:mt-0">
                 <Historic/>
             </div>
         </div>

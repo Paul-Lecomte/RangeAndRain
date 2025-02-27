@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
     return (
-        <header className="bg-blend-color text-white py-4 shadow-lg">
+        <header className="text-white py-4">
             <div className="container mx-auto flex justify-between items-center px-6">
                 <h1 className="text-2xl font-bold tracking-wide">
                     Range & Rain
