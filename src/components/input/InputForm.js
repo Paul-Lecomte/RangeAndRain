@@ -9,7 +9,7 @@ const artilleryData = {
 };
 
 const InputForm = () => {
-    const [faction, setFaction] = useState('');
+    const [faction, setFaction] = useState('American/German');
     const [distance, setDistance] = useState('');
     const [error, setError] = useState('');
     const [calculatedMil, setCalculatedMil] = useState(null);
