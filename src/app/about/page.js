@@ -25,7 +25,7 @@ const Page = () => {
                 </div>
 
                 <div>
-                    <h2 className="text-3xl font-semibold mb-4">Advanced Artillery Details</h3>
+                    <h2 className="text-3xl font-semibold mb-4">Advanced Artillery Details</h2>
                     <p className="text-lg mb-4">
                         Now, let's dive deeper into how artillery works at a tactical level.
                     </p>
@@ -49,6 +49,10 @@ const Page = () => {
                     <h3 className="text-2xl font-semibold mt-4">Spotting with Forward Observers</h3>
                     <p className="text-lg">
                         Forward observers are experienced personnel who move alongside infantry and communicate directly with artillery teams. They can identify key enemy positions, call for artillery fire, and adjust strikes as needed.
+                    </p>
+                    <h3 className="text-2xl font-semibold mt-4">Adjusting for Wind and Elevation</h3>
+                    <p className="text-lg">
+                        Wind and elevation play a crucial role in the trajectory of artillery shells. Artillery teams need to make adjustments based on weather conditions and the target’s location. Wind can push shells off course, while elevation can impact the drop and distance traveled by the shell. Understanding these factors and adjusting accordingly is key to accurate artillery fire.
                     </p>
                 </div>
             </section>
