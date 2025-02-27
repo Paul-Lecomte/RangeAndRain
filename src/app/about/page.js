@@ -1,6 +1,6 @@
 const Page = () => {
     return (
-        <div className="max-w-3xl mx-auto p-6 bg-gray-900 text-white rounded-lg">
+        <div className="max-w-4xl mx-auto py-8 px-4">
             <h1 className="text-4xl font-bold mb-6 text-center">About Artillery in Hell Let Loose</h1>
 
             <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -63,6 +63,16 @@ const Page = () => {
                         Effective artillery coordination relies on the teamwork between the gun crew, spotters, and commanders. The gun crew is responsible for operating the artillery, while the spotters relay information about targets and adjust fire. Clear communication and synchronization are crucial to ensure that artillery strikes hit their intended targets accurately and effectively.
                     </p>
                 </div>
+            </section>
+
+            <section className="mt-12 text-center">
+                <h2 className="text-3xl font-semibold mb-4">Final Tips for Success</h2>
+                <p className="text-lg mb-4">
+                    Whether you're a beginner or an experienced artillery operator, always remember that communication is key. Artillery can be a devastating asset, but it requires careful planning and execution to be effective. Work closely with your team, be aware of the environment, and practice regularly to improve your skills.
+                </p>
+                <p className="text-lg mb-4">
+                    Artillery in *Hell Let Loose* is not just about firing shells—it's about creating strategic opportunities for your team to push forward and dominate the battlefield.
+                </p>
             </section>
         </div>
     );
