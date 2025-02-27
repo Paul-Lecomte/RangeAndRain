@@ -1,6 +1,3 @@
-// pages/about.js
-import React from "react";
-
 const Page = () => {
     return (
         <div className="max-w-3xl mx-auto p-6 bg-gray-900 text-white rounded-lg">
@@ -44,6 +41,10 @@ const Page = () => {
                     <h3 className="text-2xl font-semibold mt-4">Coordinating with Infantry</h3>
                     <p className="text-lg">
                         Successful artillery strikes require clear communication with infantry units. Suppressing key enemy positions with artillery can clear the path for infantry to advance.
+                    </p>
+                    <h3 className="text-2xl font-semibold mt-4">Range and Accuracy</h3>
+                    <p className="text-lg">
+                        Artillery range and accuracy are crucial for success. The longer the range, the more potential for dispersion of the shell. Ensuring accurate firing requires understanding the shell’s trajectory and adjusting for wind and elevation.
                     </p>
                 </div>
             </section>
