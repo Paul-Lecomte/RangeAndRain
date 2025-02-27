@@ -39,7 +39,10 @@ const InputForm = () => {
                 }
                 // British calculation
                 else if (faction === 'British') {
-                    mil = -1.35 * Math.pow(10, -5) * Math.pow(distance, 2) - (0.0408 * distance) + 418;
+                    mil = (7.67 * Math.pow(10, -10) * Math.pow(distance, 3))
+                        - (1.96 * Math.pow(10, -6) * Math.pow(distance, 2))
+                        - (0.176 * distance)
+                        + 550.6;
                 }
 
                 setCalculatedMil(mil);
