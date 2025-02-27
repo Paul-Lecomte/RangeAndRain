@@ -1,3 +1,6 @@
+// pages/about.js
+import React from "react";
+
 const Page = () => {
     return (
         <div className="max-w-3xl mx-auto p-6 bg-gray-900 text-white rounded-lg">
@@ -20,6 +23,11 @@ const Page = () => {
                 <p className="text-lg mb-4">
                     Now, let's dive deeper into how artillery works at a tactical level.
                 </p>
+                <h3 className="text-2xl font-semibold mb-2">Shell Types</h3>
+                <ul className="list-disc pl-6">
+                    <li><strong>High Explosive (HE)</strong>: Best for soft targets like infantry.</li>
+                    <li><strong>Smoke Shells</strong>: Provide cover and concealment.</li>
+                </ul>
             </section>
         </div>
     );
