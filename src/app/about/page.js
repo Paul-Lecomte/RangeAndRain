@@ -1,10 +1,13 @@
-// pages/about.js
-import React from "react";
-
 const Page = () => {
     return (
         <div className="max-w-3xl mx-auto p-6 bg-gray-900 text-white rounded-lg">
             <h1 className="text-4xl font-bold mb-6 text-center">About Artillery in Hell Let Loose</h1>
+
+            <section>
+                <p className="text-lg mb-4">
+                    *Hell Let Loose* is a realistic tactical multiplayer game set during World War II. In this game, players can use a variety of weapons, including artillery, to assist in battlefield operations. This guide explains the basics of artillery usage and more advanced tactics.
+                </p>
+            </section>
 
             <section>
                 <h2 className="text-3xl font-semibold mb-4">Beginner's Guide</h2>
@@ -27,6 +30,7 @@ const Page = () => {
                 <ul className="list-disc pl-6">
                     <li><strong>High Explosive (HE)</strong>: Best for soft targets like infantry.</li>
                     <li><strong>Smoke Shells</strong>: Provide cover and concealment.</li>
+                    <li><strong>Armor-Piercing (AP)</strong>: Used against vehicles and tanks.</li>
                 </ul>
             </section>
         </div>
