@@ -1,79 +1,57 @@
 const Page = () => {
     return (
-        <div className="max-w-4xl mx-auto py-8 px-4">
-            <h1 className="text-4xl font-bold mb-6 text-center">About Artillery in Hell Let Loose</h1>
+        <div className="max-w-6xl mx-auto py-10 px-6 bg-gray-900 text-white" aria-labelledby="page-title">
+            <h1 id="page-title" className="text-5xl font-bold text-center mb-8" aria-level="1">
+                About Artillery in Hell Let Loose
+            </h1>
 
-            <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div>
-                    <h2 className="text-3xl font-semibold mb-4">Beginner's Guide</h2>
+            {/* Beginner's Guide Section */}
+            <section className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div className="bg-gray-800 p-6 rounded-lg shadow-lg" role="region" aria-labelledby="beginner-guide">
+                    <h2 id="beginner-guide" className="text-3xl font-semibold mb-4">Beginner's Guide</h2>
                     <p className="text-lg mb-4">
-                        Artillery in *Hell Let Loose* can be a powerful asset, but understanding how it works is key to using it effectively. This guide will explain the basics for beginners.
+                        Artillery in *Hell Let Loose* is a critical weapon for long-range bombardment, and it requires coordination, timing, and strategy. Let’s start with the basics.
                     </p>
                     <ul className="list-disc pl-6">
-                        <li>Artillery is used for long-range bombardment.</li>
-                        <li>You can target enemy positions based on map coordinates.</li>
-                        <li>Communicating with your team about targets is essential.</li>
+                        <li>Artillery is used to hit targets from afar.</li>
+                        <li>Targeting is done through map coordinates or spotter markings.</li>
+                        <li>Effective communication with the team is key to success.</li>
                     </ul>
-                    <h3 className="text-2xl font-semibold mt-4">Spotting and Targeting</h3>
-                    <p className="text-lg">
-                        To call in artillery, you need to have a spotter or use map coordinates to target specific areas. Spotters are usually located on the front lines and mark enemy positions for the artillery.
-                    </p>
-                    <h3 className="text-2xl font-semibold mt-4">Firing the Artillery</h3>
-                    <p className="text-lg">
-                        Once the target has been marked or the coordinates are set, the artillery commander will load the appropriate shell and fire. Timing and accuracy are key to hitting the target effectively.
-                    </p>
                 </div>
 
-                <div>
-                    <h2 className="text-3xl font-semibold mb-4">Advanced Artillery Details</h2>
+                {/* Advanced Details Section */}
+                <div className="bg-gray-800 p-6 rounded-lg shadow-lg" role="region" aria-labelledby="advanced-details">
+                    <h2 id="advanced-details" className="text-3xl font-semibold mb-4">Advanced Details</h2>
                     <p className="text-lg mb-4">
-                        Now, let's dive deeper into how artillery works at a tactical level.
+                        As you progress with artillery use, you’ll need to understand the advanced techniques to maximize its impact on the battlefield.
                     </p>
-                    <h3 className="text-2xl font-semibold mb-2">Shell Types</h3>
+                    <h3 className="text-2xl font-semibold mt-4">Shell Types</h3>
                     <ul className="list-disc pl-6">
-                        <li><strong>High Explosive (HE)</strong>: Best for soft targets like infantry.</li>
-                        <li><strong>Smoke Shells</strong>: Provide cover and concealment.</li>
+                        <li><strong>High Explosive (HE)</strong>: Best for destroying enemy infantry and light vehicles.</li>
+                        <li><strong>Smoke Shells</strong>: These are used to provide cover and disrupt enemy sightlines.</li>
+                        <li><strong>Armor-Piercing (AP)</strong>: Perfect for targeting tanks and heavy vehicles.</li>
                     </ul>
-                    <h3 className="text-2xl font-semibold mt-4">Advanced Targeting</h3>
+                    <h3 className="text-2xl font-semibold mt-4">Artillery Teamwork</h3>
                     <p className="text-lg">
-                        In advanced artillery tactics, the use of smoke for concealment and coordination with infantry is critical. Artillery teams often work with spotters to create suppression zones and disrupt enemy movement.
-                    </p>
-                    <h3 className="text-2xl font-semibold mt-4">Coordinating with Infantry</h3>
-                    <p className="text-lg">
-                        Successful artillery strikes require clear communication with infantry units. Suppressing key enemy positions with artillery can clear the path for infantry to advance.
-                    </p>
-                    <h3 className="text-2xl font-semibold mt-4">Range and Accuracy</h3>
-                    <p className="text-lg">
-                        Artillery range and accuracy are crucial for success. The longer the range, the more potential for dispersion of the shell. Ensuring accurate firing requires understanding the shell’s trajectory and adjusting for wind and elevation.
-                    </p>
-                    <h3 className="text-2xl font-semibold mt-4">Spotting with Forward Observers</h3>
-                    <p className="text-lg">
-                        Forward observers are experienced personnel who move alongside infantry and communicate directly with artillery teams. They can identify key enemy positions, call for artillery fire, and adjust strikes as needed.
-                    </p>
-                    <h3 className="text-2xl font-semibold mt-4">Adjusting for Wind and Elevation</h3>
-                    <p className="text-lg">
-                        Wind and elevation play a crucial role in the trajectory of artillery shells. Artillery teams need to make adjustments based on weather conditions and the target’s location. Wind can push shells off course, while elevation can impact the drop and distance traveled by the shell. Understanding these factors and adjusting accordingly is key to accurate artillery fire.
-                    </p>
-                    <h3 className="text-2xl font-semibold mt-4">Cooldown and Reload Times</h3>
-                    <p className="text-lg">
-                        After firing, artillery has a cooldown period during which it cannot fire again. Additionally, there are reload times depending on the type of shell and the gun's complexity. These times should be taken into account to ensure artillery is ready when needed and to avoid wasting ammunition during critical moments.
-                    </p>
-                    <h3 className="text-2xl font-semibold mt-4">Artillery Team Coordination</h3>
-                    <p className="text-lg">
-                        Effective artillery coordination relies on the teamwork between the gun crew, spotters, and commanders. The gun crew is responsible for operating the artillery, while the spotters relay information about targets and adjust fire. Clear communication and synchronization are crucial to ensure that artillery strikes hit their intended targets accurately and effectively.
+                        Artillery is a team effort. Spotters help to identify targets, while the gunners execute the firing. Successful artillery strikes depend on both roles working seamlessly together.
                     </p>
                 </div>
             </section>
 
-            <section className="mt-12 text-center">
-                <h2 className="text-3xl font-semibold mb-4">Final Tips for Success</h2>
+            {/* Final Thoughts Section */}
+            <section className="bg-gray-800 p-8 rounded-lg shadow-lg mb-12" role="region" aria-labelledby="final-thoughts">
+                <h2 id="final-thoughts" className="text-3xl font-semibold mb-4">Final Thoughts</h2>
                 <p className="text-lg mb-4">
-                    Whether you're a beginner or an experienced artillery operator, always remember that communication is key. Artillery can be a devastating asset, but it requires careful planning and execution to be effective. Work closely with your team, be aware of the environment, and practice regularly to improve your skills.
-                </p>
-                <p className="text-lg mb-4">
-                    Artillery in *Hell Let Loose* is not just about firing shells—it's about creating strategic opportunities for your team to push forward and dominate the battlefield.
+                    Whether you're a beginner or a veteran, mastering artillery requires practice, patience, and communication. Work with your squad to coordinate strikes, and always be mindful of the timing and positioning of your shots. The more accurate and timely your fire, the more devastating its effects on the battlefield.
                 </p>
             </section>
+
+            {/* Footer */}
+            <footer className="text-center py-6 bg-gray-800 mt-12" role="contentinfo">
+                <p className="text-lg">
+                    This guide aims to improve your artillery gameplay and help your team achieve victory in *Hell Let Loose*.
+                </p>
+            </footer>
         </div>
     );
 };
