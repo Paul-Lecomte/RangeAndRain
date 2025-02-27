@@ -41,6 +41,10 @@ const Page = () => {
                     <p className="text-lg">
                         In advanced artillery tactics, the use of smoke for concealment and coordination with infantry is critical. Artillery teams often work with spotters to create suppression zones and disrupt enemy movement.
                     </p>
+                    <h3 className="text-2xl font-semibold mt-4">Coordinating with Infantry</h3>
+                    <p className="text-lg">
+                        Successful artillery strikes require clear communication with infantry units. Suppressing key enemy positions with artillery can clear the path for infantry to advance.
+                    </p>
                 </div>
             </section>
         </div>
