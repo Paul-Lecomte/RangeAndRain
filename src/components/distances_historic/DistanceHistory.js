@@ -38,19 +38,19 @@ const DistanceHistory = () => {
                     <table className="min-w-full table-auto border-separate border-spacing-2">
                         <thead>
                         <tr>
-                            <th className="px-4 py-2 border border-gray-300 text-left">Faction</th>
-                            <th className="px-4 py-2 border border-gray-300 text-left">Distance</th>
-                            <th className="px-4 py-2 border border-gray-300 text-left">Mil</th>
-                            <th className="px-4 py-2 border border-gray-300 text-left">Actions</th>
+                            <th className="px-4 py-2 rounded-lg bg-[#262626] text-left">Faction</th>
+                            <th className="px-4 py-2 rounded-lg bg-[#262626] text-left">Distance</th>
+                            <th className="px-4 py-2 rounded-lg bg-[#262626] text-left">Mil</th>
+                            <th className="px-4 py-2 rounded-lg bg-[#262626] text-left">Actions</th>
                         </tr>
                         </thead>
                         <tbody>
                         {history.map((item, id) => (
                             <tr key={id} className="transition-colors duration-200">
-                                <td className="px-4 py-2 border border-gray-300">{item.faction}</td>
-                                <td className="px-4 py-2 border border-gray-300">{item.distance} meters</td>
-                                <td className="px-4 py-2 border border-gray-300">{Math.floor(item.mil)}</td>
-                                <td className="px-4 py-2 border border-gray-300 text-center">
+                                <td className="px-4 py-2 rounded-lg bg-[#262626]">{item.faction}</td>
+                                <td className="px-4 py-2 rounded-lg bg-[#262626]">{item.distance} meters</td>
+                                <td className="px-4 py-2 rounded-lg bg-[#262626]">{Math.floor(item.mil)}</td>
+                                <td className="px-4 py-2 rounded-lg bg-[#262626] text-center">
                                     <button
                                         onClick={() => handleRemoveSingleItem(item.id)}
                                         className="text-red-500 hover:text-red-700"
