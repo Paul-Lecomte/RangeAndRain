@@ -14,6 +14,10 @@ const Page = () => {
                         <li>You can target enemy positions based on map coordinates.</li>
                         <li>Communicating with your team about targets is essential.</li>
                     </ul>
+                    <h3 className="text-2xl font-semibold mt-4">Spotting and Targeting</h3>
+                    <p className="text-lg">
+                        To call in artillery, you need to have a spotter or use map coordinates to target specific areas. Spotters are usually located on the front lines and mark enemy positions for the artillery.
+                    </p>
                 </div>
 
                 <div>
