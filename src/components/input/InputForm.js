@@ -50,7 +50,7 @@ const InputForm = () => {
     };
 
     return (
-        <div className="max-w-md mx-auto bg-gray-900 text-white p-6 rounded-2xl shadow-lg">
+        <div className="max-w-md mx-auto bg-[#262626] text-white p-6 rounded-2xl shadow-lg">
             <h2 className="text-3xl font-bold text-center mb-6">Artillery Calculator</h2>
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
@@ -60,7 +60,7 @@ const InputForm = () => {
                         id="distance"
                         value={distance}
                         onChange={(e) => setDistance(e.target.value)}
-                        className="w-full mt-2 p-3 rounded-lg bg-gray-800 border border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        className="w-full mt-2 p-3 rounded-lg bg-[#0D0D0D] border focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         placeholder="Enter distance"
                     />
                 </div>
@@ -71,7 +71,7 @@ const InputForm = () => {
                         id="faction"
                         value={faction}
                         onChange={(e) => setFaction(e.target.value)}
-                        className="w-full mt-2 p-3 rounded-lg bg-gray-800 border border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        className="w-full mt-2 p-3 rounded-lg bg-[#0D0D0D] border border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     >
                         <option value="">Select Faction</option>
                         <option value="American/German">American/German</option>
@@ -81,7 +81,7 @@ const InputForm = () => {
                 </div>
                 <button
                     type="submit"
-                    className="w-full py-3 rounded-lg bg-blue-600 text-white text-lg font-semibold hover:bg-blue-700 transition focus:ring-2 focus:ring-blue-500"
+                    className="w-full py-3 rounded-lg bg-[#0D0D0D] text-white text-lg font-semibold hover:bg-[#D9D9D9] hover:text-[#0D0D0D] transition focus:ring-2 focus:ring-blue-500"
                 >
                     Save Entry
                 </button>
