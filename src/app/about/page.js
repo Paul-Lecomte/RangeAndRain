@@ -1,3 +1,6 @@
+// pages/about.js
+import React from "react";
+
 const Page = () => {
     return (
         <div className="max-w-3xl mx-auto p-6 bg-gray-900 text-white rounded-lg">
@@ -34,6 +37,10 @@ const Page = () => {
                         <li><strong>High Explosive (HE)</strong>: Best for soft targets like infantry.</li>
                         <li><strong>Smoke Shells</strong>: Provide cover and concealment.</li>
                     </ul>
+                    <h3 className="text-2xl font-semibold mt-4">Advanced Targeting</h3>
+                    <p className="text-lg">
+                        In advanced artillery tactics, the use of smoke for concealment and coordination with infantry is critical. Artillery teams often work with spotters to create suppression zones and disrupt enemy movement.
+                    </p>
                 </div>
             </section>
         </div>
