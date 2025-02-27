@@ -8,6 +8,11 @@ const Page = () => {
                 <p className="text-lg mb-4">
                     Artillery in *Hell Let Loose* can be a powerful asset, but understanding how it works is key to using it effectively. This guide will explain the basics for beginners.
                 </p>
+                <ul className="list-disc pl-6">
+                    <li>Artillery is used for long-range bombardment.</li>
+                    <li>You can target enemy positions based on map coordinates.</li>
+                    <li>Communicating with your team about targets is essential.</li>
+                </ul>
             </section>
 
             <section className="mt-8">
