@@ -54,6 +54,10 @@ const Page = () => {
                     <p className="text-lg">
                         Wind and elevation play a crucial role in the trajectory of artillery shells. Artillery teams need to make adjustments based on weather conditions and the target’s location. Wind can push shells off course, while elevation can impact the drop and distance traveled by the shell. Understanding these factors and adjusting accordingly is key to accurate artillery fire.
                     </p>
+                    <h3 className="text-2xl font-semibold mt-4">Cooldown and Reload Times</h3>
+                    <p className="text-lg">
+                        After firing, artillery has a cooldown period during which it cannot fire again. Additionally, there are reload times depending on the type of shell and the gun's complexity. These times should be taken into account to ensure artillery is ready when needed and to avoid wasting ammunition during critical moments.
+                    </p>
                 </div>
             </section>
         </div>
