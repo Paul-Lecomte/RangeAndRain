@@ -74,7 +74,6 @@ const InputForm = () => {
                         onChange={(e) => setFaction(e.target.value)}
                         className="w-full mt-2 p-3 rounded-lg bg-[#0D0D0D] border border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     >
-                        <option value="">Select Faction</option>
                         <option value="American/German">American/German</option>
                         <option value="Soviet">Soviet</option>
                         <option value="British">British</option>
