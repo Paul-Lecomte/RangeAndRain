@@ -45,6 +45,7 @@ const InputForm = () => {
         }
         setError('');
         addDistanceToHistory({ faction, distance, mil: calculatedMil, date: new Date().toLocaleString() });
+        location.reload();
         setDistance('');
         setCalculatedMil(null);
     };
