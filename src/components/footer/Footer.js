@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="bg-blend-color text-gray-400 text-xs py-2 text-center absolute bottom-0 w-full">
+        <footer className="text-gray-400 text-xs text-center bottom-0 w-full">
             <p>&copy; {new Date().getFullYear()} Paul Lecomte • MIT License •
                 <a href="https://github.com/Paul-Lecomte/RangeAndRain"
                    target="_blank"
