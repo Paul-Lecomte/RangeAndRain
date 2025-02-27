@@ -34,20 +34,34 @@ const DistanceHistory = () => {
             </div>
 
             {history.length > 0 ? (
-                <div className="space-y-4">
-                    {history.map((item, id) => (
-                        <div key={id}
-                             className="p-4 rounded-lg shadow-md  justify-between items-center">
-                            <div>
-                                <p><strong>Faction:</strong> {item.faction}</p>
-                                <p><strong>Distance:</strong> {item.distance} meters</p>
-                                <p><strong>Mil:</strong> {Math.floor(item.mil)}</p>
-                            </div>
-                            <button onClick={() => handleRemoveSingleItem(item.id)}>
-                                Remove
-                            </button>
-                        </div>
-                    ))}
+                <div className="overflow-x-auto">
+                    <table className="min-w-full table-auto border-separate border-spacing-2">
+                        <thead>
+                        <tr>
+                            <th className="px-4 py-2 border border-gray-300 text-left">Faction</th>
+                            <th className="px-4 py-2 border border-gray-300 text-left">Distance</th>
+                            <th className="px-4 py-2 border border-gray-300 text-left">Mil</th>
+                            <th className="px-4 py-2 border border-gray-300 text-left">Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {history.map((item, id) => (
+                            <tr key={id} className="transition-colors duration-200">
+                                <td className="px-4 py-2 border border-gray-300">{item.faction}</td>
+                                <td className="px-4 py-2 border border-gray-300">{item.distance} meters</td>
+                                <td className="px-4 py-2 border border-gray-300">{Math.floor(item.mil)}</td>
+                                <td className="px-4 py-2 border border-gray-300 text-center">
+                                    <button
+                                        onClick={() => handleRemoveSingleItem(item.id)}
+                                        className="text-red-500 hover:text-red-700"
+                                    >
+                                        Remove
+                                    </button>
+                                </td>
+                            </tr>
+                        ))}
+                        </tbody>
+                    </table>
                 </div>
             ) : (
                 <p>No distances logged yet.</p>
