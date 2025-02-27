@@ -46,6 +46,10 @@ const Page = () => {
                     <p className="text-lg">
                         Artillery range and accuracy are crucial for success. The longer the range, the more potential for dispersion of the shell. Ensuring accurate firing requires understanding the shell’s trajectory and adjusting for wind and elevation.
                     </p>
+                    <h3 className="text-2xl font-semibold mt-4">Spotting with Binoculars</h3>
+                    <p className="text-lg">
+                        Spotters often use binoculars to identify and mark enemy positions from a distance. This gives artillery teams an accurate target to focus on, improving the chances of a successful strike.
+                    </p>
                 </div>
             </section>
         </div>
