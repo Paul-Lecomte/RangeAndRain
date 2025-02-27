@@ -18,6 +18,10 @@ const Page = () => {
                     <p className="text-lg">
                         To call in artillery, you need to have a spotter or use map coordinates to target specific areas. Spotters are usually located on the front lines and mark enemy positions for the artillery.
                     </p>
+                    <h3 className="text-2xl font-semibold mt-4">Firing the Artillery</h3>
+                    <p className="text-lg">
+                        Once the target has been marked or the coordinates are set, the artillery commander will load the appropriate shell and fire. Timing and accuracy are key to hitting the target effectively.
+                    </p>
                 </div>
 
                 <div>
