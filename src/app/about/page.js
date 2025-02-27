@@ -25,7 +25,7 @@ const Page = () => {
                 </div>
 
                 <div>
-                    <h2 className="text-3xl font-semibold mb-4">Advanced Artillery Details</h2>
+                    <h2 className="text-3xl font-semibold mb-4">Advanced Artillery Details</h3>
                     <p className="text-lg mb-4">
                         Now, let's dive deeper into how artillery works at a tactical level.
                     </p>
@@ -46,9 +46,9 @@ const Page = () => {
                     <p className="text-lg">
                         Artillery range and accuracy are crucial for success. The longer the range, the more potential for dispersion of the shell. Ensuring accurate firing requires understanding the shell’s trajectory and adjusting for wind and elevation.
                     </p>
-                    <h3 className="text-2xl font-semibold mt-4">Spotting with Binoculars</h3>
+                    <h3 className="text-2xl font-semibold mt-4">Spotting with Forward Observers</h3>
                     <p className="text-lg">
-                        Spotters often use binoculars to identify and mark enemy positions from a distance. This gives artillery teams an accurate target to focus on, improving the chances of a successful strike.
+                        Forward observers are experienced personnel who move alongside infantry and communicate directly with artillery teams. They can identify key enemy positions, call for artillery fire, and adjust strikes as needed.
                     </p>
                 </div>
             </section>
