@@ -27,9 +27,8 @@ const Page = () => {
                     </p>
                     <h3 className="text-2xl font-semibold mt-4">Shell Types</h3>
                     <ul className="list-disc pl-6">
-                        <li><strong>High Explosive (HE)</strong>: Best for destroying enemy infantry and light vehicles.</li>
-                        <li><strong>Smoke Shells</strong>: These are used to provide cover and disrupt enemy sightlines.</li>
-                        <li><strong>Armor-Piercing (AP)</strong>: Perfect for targeting tanks and heavy vehicles.</li>
+                        <li><strong>High Explosive (HE) Cost: 3 ammo</strong>: Best for destroying enemy infantry and light vehicles.</li>
+                        <li><strong>Smoke Shells Cost: 5 ammo</strong>: These are used to provide cover and disrupt enemy sightlines.</li>
                     </ul>
                     <h3 className="text-2xl font-semibold mt-4">Artillery Teamwork</h3>
                     <p className="text-lg">
