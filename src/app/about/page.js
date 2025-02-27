@@ -58,6 +58,10 @@ const Page = () => {
                     <p className="text-lg">
                         After firing, artillery has a cooldown period during which it cannot fire again. Additionally, there are reload times depending on the type of shell and the gun's complexity. These times should be taken into account to ensure artillery is ready when needed and to avoid wasting ammunition during critical moments.
                     </p>
+                    <h3 className="text-2xl font-semibold mt-4">Artillery Team Coordination</h3>
+                    <p className="text-lg">
+                        Effective artillery coordination relies on the teamwork between the gun crew, spotters, and commanders. The gun crew is responsible for operating the artillery, while the spotters relay information about targets and adjust fire. Clear communication and synchronization are crucial to ensure that artillery strikes hit their intended targets accurately and effectively.
+                    </p>
                 </div>
             </section>
         </div>
