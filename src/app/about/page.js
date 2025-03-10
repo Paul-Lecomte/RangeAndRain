@@ -51,7 +51,7 @@ const Page = () => {
                     Let's talk about the math behind the calculator, i used  a cubic equation after testing it's what gave me the more accurate mil for a given distance here are each one
                 </p>
                 <h3>Allies / Axis</h3>
-                <p></p>
+                <p>Mil=−2.18×10−12⋅Distance2−0.237⋅Distance+1001.53</p>
                 <h3>Soviet</h3>
                 <p>Mil=−1.05×10−7×Distance2−0.213×Distance+1141.65</p>
                 <h3>British</h3>
