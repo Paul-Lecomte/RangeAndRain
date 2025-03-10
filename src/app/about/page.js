@@ -45,6 +45,10 @@ const Page = () => {
                 </p>
             </section>
 
+            <section className="bg-[#262626] p-8 rounded-lg shadow-lg mb-12" role="region" aria-labelledby="final-thoughts">
+
+            </section>
+
             {/* Footer */}
             <footer className="text-center py-6 bg-[#262626] mt-12" role="contentinfo">
                 <p className="text-lg">
