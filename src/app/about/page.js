@@ -55,7 +55,7 @@ const Page = () => {
                 <h3>Soviet</h3>
                 <p></p>
                 <h3>British</h3>
-                <p></p>
+                <p>mil=7.67×10−10⋅distance3−1.96×10−6⋅distance2−0.176⋅distance+550.6</p>
             </section>
 
             {/* Footer */}
