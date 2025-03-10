@@ -53,7 +53,7 @@ const Page = () => {
                 <h3>Allies / Axis</h3>
                 <p></p>
                 <h3>Soviet</h3>
-                <p></p>
+                <p>Mil=−1.05×10−7×Distance2−0.213×Distance+1141.65</p>
                 <h3>British</h3>
                 <p>mil=7.67×10−10⋅distance3−1.96×10−6⋅distance2−0.176⋅distance+550.6</p>
             </section>
