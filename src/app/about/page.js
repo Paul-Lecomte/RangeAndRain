@@ -48,8 +48,14 @@ const Page = () => {
             <section className="bg-[#262626] p-8 rounded-lg shadow-lg mb-12" role="region" aria-labelledby="final-thoughts">
                 <h2 className="text-3xl font-semibold mb-4">Math behind the calculator</h2>
                 <p className="text-lg mb-4">
-
+                    Let's talk about the math behind the calculator, i used  a cubic equation after testing it's what gave me the more accurate mil for a given distance here are each one
                 </p>
+                <h3>Allies / Axis</h3>
+                <p></p>
+                <h3>Soviet</h3>
+                <p></p>
+                <h3>British</h3>
+                <p></p>
             </section>
 
             {/* Footer */}
