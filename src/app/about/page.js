@@ -46,7 +46,7 @@ const Page = () => {
             </section>
 
             <section className="bg-[#262626] p-8 rounded-lg shadow-lg mb-12" role="region" aria-labelledby="final-thoughts">
-
+                <h2 className="text-3xl font-semibold mb-4"></h2>
             </section>
 
             {/* Footer */}
