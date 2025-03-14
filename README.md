@@ -61,7 +61,7 @@ By inputting your target’s range, *Range & Rain* calculates the necessary angl
 - [x] elevation support for the Soviet faction
 - [ ] Implement a visual trajectory preview
 - [ ] Add an API for in-game integration
-- [ ] Mobile-friendly version
+- [x] Mobile-friendly version
 
 ## 🤝 Contributing
 Pull requests are welcome! If you have a better range table or improvements, feel free to contribute.
